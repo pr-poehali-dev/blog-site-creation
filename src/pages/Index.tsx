@@ -60,13 +60,13 @@ export default function Index() {
       <Header />
 
       <main>
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-gradient-to-br from-background via-card to-secondary">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
                 Мода, стиль и размышления
               </h1>
-              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              <p className="text-xl text-accent-foreground max-w-2xl mx-auto">
                 Личный блог о моде, актуальных новостях и жизни. Делюсь своими
                 мыслями и наблюдениями.
               </p>
@@ -74,10 +74,10 @@ export default function Index() {
           </div>
         </section>
 
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-gradient-to-br from-secondary via-muted to-card">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
                 Последние статьи
               </h2>
 
@@ -90,10 +90,10 @@ export default function Index() {
           </div>
         </section>
 
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-gradient-to-br from-card via-secondary to-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
                 Категории
               </h2>
 
@@ -109,14 +109,16 @@ export default function Index() {
         <AboutSection />
       </main>
 
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-gradient-to-br from-secondary to-background border-t border-border py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold mb-4">Мой Блог</h3>
-            <p className="text-gray-400 mb-6">
+            <h3 className="text-2xl font-bold mb-4 text-foreground">
+              Мой Блог
+            </h3>
+            <p className="text-muted-foreground mb-6">
               Спасибо за внимание к моим мыслям о моде и жизни
             </p>
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-muted-foreground">
               © 2024 Мой Блог. Все права защищены.
             </div>
           </div>
